@@ -8,7 +8,7 @@ function Header() {
   return (
     <header>
       <nav className="container max-w-full bg-primary flex flex-row fixed top-0 left-0 z-40 h-16">
-        <img className="size-12 ml-6 mt-1" src={logo} alt="logo" />
+        <img className="size-12 ml-6 mt-1 " src={logo} alt="logo" />
         <label class="relative block pl-10 pt-2.5">
           <span class="sr-only">Search</span>
           <span class="absolute inset-y-0 left-0 flex items-center pl-2"></span>

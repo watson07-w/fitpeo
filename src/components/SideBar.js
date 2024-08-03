@@ -2,7 +2,7 @@ import React from "react";
 
 function SideBar() {
   return (
-    <div class="fixed top-0 left-0 w-24 h-screen bg-primary border-r border-gray-300 z-10 mt-5">
+    <div class="fixed top-0 left-0 w-20 h-screen bg-primary border-r border-gray-300 z-10 mt-5">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
