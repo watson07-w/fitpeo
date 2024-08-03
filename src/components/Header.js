@@ -8,7 +8,11 @@ function Header() {
   return (
     <header>
       <nav className="container max-w-full bg-primary flex flex-row fixed top-0 left-0 z-40 h-16">
-        <img className="size-12 ml-6 mt-1 " src={logo} alt="logo" />
+        <img
+          className="size-12 ml-6 mt-1 cursor-pointer"
+          src={logo}
+          alt="logo"
+        />
         <label class="relative block pl-10 pt-2.5">
           <span class="sr-only">Search</span>
           <span class="absolute inset-y-0 left-0 flex items-center pl-2"></span>
@@ -33,13 +37,13 @@ function Header() {
             />
           </svg>
         </label>
-        <EnvelopeIcon className="size-6 ml-auto mr-6 mt-4 text-search" />
-        <CogIcon className="size-6 mr-6 mt-4 text-search" />
-        <BellIcon className="size-6 mr-6 mt-4 text-search" />
+        <EnvelopeIcon className="size-6 ml-auto mr-6 mt-4 text-search cursor-pointer" />
+        <CogIcon className="size-6 mr-6 mt-4 text-search cursor-pointer" />
+        <BellIcon className="size-6 mr-6 mt-4 text-search cursor-pointer" />
         <img
           alt=""
           src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-          className="mt-2 mr-10 h-10 w-10 rounded-full"
+          className="mt-2 mr-10 h-10 w-10 rounded-full cursor-pointer"
         />
       </nav>
     </header>
