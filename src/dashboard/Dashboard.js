@@ -8,7 +8,7 @@ import Feedback from "./Feedback";
 
 function Dashboard() {
   return (
-    <div className="grid grid-cols-2 gap-4 h-auto xl:grid-cols-3 xl:gap-6 lg:grid-cols-2 lg:gap-4 md:grid-cols-2 md:gap-4 sm:grid-cols-1 sm:gap-4">
+    <div className="grid grid-cols-2 gap-4 h-32">
       <CardBox />
       <NetProfit />
       <Chart />
