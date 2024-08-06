@@ -5,8 +5,8 @@ function CardBox() {
     <div>
       <p className="text-textcolor font-bold text-3xl pt-4 px-6">Dashboard</p>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 pt-5 px-4">
-        <div class="bg-primary p-3 rounded-lg shadow w-32 md:w-28">
-          <div className="bg-order p-1 w-11 rounded-md mb-3 shadow md:w-10 mb-1">
+        <div class="bg-primary p-3 rounded-lg shadow w-32">
+          <div className="bg-order p-1 w-11 rounded-md mb-3 shadow">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -23,7 +23,7 @@ function CardBox() {
           </div>
         </div>
 
-        <div class="bg-primary p-3 rounded-lg shadow w-32 md:w-28">
+        <div class="bg-primary p-3 rounded-lg shadow w-32">
           <div className="bg-delivered p-1 w-11 rounded-md mb-3 shadow md:w-10 mb-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ function CardBox() {
           </div>
         </div>
 
-        <div class="bg-primary p-3 rounded-lg shadow w-32 md:w-28">
+        <div class="bg-primary p-3 rounded-lg shadow w-32">
           <div className="bg-cancel p-1 w-11 rounded-md mb-3 shadow md:w-10 mb-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +68,7 @@ function CardBox() {
           </div>
         </div>
 
-        <div class="bg-primary p-3 rounded-lg shadow w-32 md:w-28 ">
+        <div class="bg-primary p-3 rounded-lg shadow w-32">
           <div className="bg-revenue p-1 w-11 rounded-md mb-3 shadow md:w-10 mb-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"

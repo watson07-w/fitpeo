@@ -2,7 +2,7 @@ import React from "react";
 
 function NetProfit() {
   return (
-    <div className=" flex mt-16 bg-primary shadow  rounded-lg md: mt-0">
+    <div className=" flex mt-16 bg-primary shadow  rounded-lg ">
       <div className="flex flex-col">
         <p className="text-textcolor text-xs font-bold px-4 py-2">NetProfit</p>
         <p className="text-textcolor text-3xl font-bold  px-4">$6759.25</p>
