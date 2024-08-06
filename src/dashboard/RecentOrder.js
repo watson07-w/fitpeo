@@ -2,7 +2,7 @@ import React from "react";
 
 function RecentOrder() {
   return (
-    <div className="bg-primary shadow ml-4 rounded-lg h-96">
+    <div className="bg-primary shadow ml-4 rounded-lg">
       <p className="text-textcolor font-bold text-lg pt-2 px-5">Recent Order</p>
       <div className="py-5">
         <table class="table-fixed w-full text-textcolor">

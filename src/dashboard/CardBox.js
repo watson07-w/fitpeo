@@ -5,8 +5,8 @@ function CardBox() {
     <div>
       <p className="text-textcolor font-bold text-3xl pt-4 px-6">Dashboard</p>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 pt-5 px-4">
-        <div class="bg-primary p-3 rounded-lg shadow w-32">
-          <div className="bg-order p-1 w-11 rounded-md mb-3 shadow">
+        <div class="bg-primary p-3 rounded-lg shadow w-32 md:w-28">
+          <div className="bg-order p-1 w-11 rounded-md mb-3 shadow md:w-10 mb-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -18,13 +18,13 @@ function CardBox() {
           </div>
           <h2 class="text-textcolor font-normal text-xs">Total Orders</h2>
           <div className="flex justify-between">
-            <p class="text-textcolor text-2xl font-bold mt-2">75</p>
+            <p class="text-textcolor text-2xl font-bold mt-2 md:text-lg">75</p>
             <p class="text-delivered mt-4 text-right">▲ 3%</p>
           </div>
         </div>
 
-        <div class="bg-primary p-3 rounded-lg shadow w-32">
-          <div className="bg-delivered p-1 w-11 rounded-md mb-3 shadow">
+        <div class="bg-primary p-3 rounded-lg shadow w-32 md:w-28">
+          <div className="bg-delivered p-1 w-11 rounded-md mb-3 shadow md:w-10 mb-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -40,13 +40,13 @@ function CardBox() {
           </div>
           <h2 class="text-textcolor font-normal text-xs">Total Delivered</h2>
           <div className="flex justify-between">
-            <p class="text-textcolor text-2xl font-bold mt-2">70</p>
+            <p class="text-textcolor text-2xl font-bold mt-2 md:text-lg">70</p>
             <p class="text-cancel mt-4 text-right">▼ 3%</p>
           </div>
         </div>
 
-        <div class="bg-primary p-3 rounded-lg shadow w-32">
-          <div className="bg-cancel p-1 w-11 rounded-md mb-3 shadow">
+        <div class="bg-primary p-3 rounded-lg shadow w-32 md:w-28">
+          <div className="bg-cancel p-1 w-11 rounded-md mb-3 shadow md:w-10 mb-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -63,13 +63,13 @@ function CardBox() {
           </div>
           <h2 class="text-textcolor font-normal text-xs">Total Cancelled</h2>
           <div className="flex justify-between">
-            <p class="text-textcolor text-2xl font-bold mt-2">05</p>
-            <p class="text-delivered mt-4 text-right">▲ 3%</p>
+            <p class="text-textcolor text-2xl font-bold mt-2 md:text-lg">05</p>
+            <p class="text-delivered mt-4 text-right md:text-ms">▲ 3%</p>
           </div>
         </div>
 
-        <div class="bg-primary p-3 rounded-lg shadow w-32">
-          <div className="bg-revenue p-1 w-11 rounded-md mb-3 shadow">
+        <div class="bg-primary p-3 rounded-lg shadow w-32 md:w-28 ">
+          <div className="bg-revenue p-1 w-11 rounded-md mb-3 shadow md:w-10 mb-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -85,8 +85,10 @@ function CardBox() {
           </div>
           <h2 class="text-textcolor font-normal text-xs">Total Revenue</h2>
           <div className="flex justify-between">
-            <p class="text-textcolor text-2xl font-bold mt-2">$12k</p>
-            <p class="text-cancel mt-4 text-right">▼ 3%</p>
+            <p class="text-textcolor text-2xl font-bold mt-2 md:text-lg">
+              $12k
+            </p>
+            <p class="text-cancel mt-4 text-right md:text-sm">▼ 3%</p>
           </div>
         </div>
       </div>
