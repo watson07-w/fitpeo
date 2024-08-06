@@ -20,9 +20,7 @@ function Goals() {
             </svg>
           </div>
           <div className="my-6 mr-64 md:mr-0">
-            <p className="text-textcolor text-sm font-bold text-left  ">
-              Goals
-            </p>
+            <p className="text-textcolor text-xl font-bold pt-1">Goals</p>
           </div>
         </div>
         <div className=" bg-search w-8 h-8 rounded-full mx-4 my-4">
@@ -57,7 +55,7 @@ function Goals() {
             </svg>
           </div>
           <div className="my-6 mr-64 md:mr-0">
-            <p className="text-textcolor text-sm font-bold text-left">
+            <p className="text-textcolor text-xl font-bold pt-1">
               Popular Dishes
             </p>
           </div>
@@ -95,7 +93,7 @@ function Goals() {
             </svg>
           </div>
           <div className="my-6">
-            <p className="text-textcolor text-sm font-bold text-left">Menus</p>
+            <p className="text-textcolor text-xl font-bold pt-1">Menus</p>
           </div>
         </div>
         <div className=" bg-search w-8 h-8 rounded-full mx-4 my-4">
