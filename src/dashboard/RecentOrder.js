@@ -7,7 +7,7 @@ function RecentOrder() {
       <div className="py-5">
         <table class="table-fixed w-full text-textcolor">
           <thead>
-            <tr className="border-b">
+            <tr className="border-b ">
               <th>Customer</th>
               <th>Order No.</th>
               <th> Amount</th>

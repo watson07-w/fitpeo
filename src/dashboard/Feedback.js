@@ -3,7 +3,7 @@ import React from "react";
 function Feedback() {
   return (
     <div className=" bg-primary shadow rounded-lg overflow-y-auto">
-      <p className="text-textcolor font-bold text-lg pt-5 px-5">Feedback</p>
+      <p className="text-textcolor font-bold text-lg pt-5 ">Feedback</p>
       <div className="overscroll-auto ...">
         <div className="mt-5 px-5 flex">
           <img
