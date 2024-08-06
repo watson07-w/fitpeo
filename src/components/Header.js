@@ -4,24 +4,23 @@ import logo from "../assests/images/logo.svg";
 function Header() {
   return (
     <header>
-      <nav className="container max-w-full bg-primary flex flex-row justify-between h-16">
-        <div className="flex">
+      <nav className="container max-w-full bg-primary flex flex-row justify-between h-20 py-2 px-4">
+        <div className="flex gap-8 items-center">
           <img
-            className="size-12 ml-6 mt-1 cursor-pointer"
+            className="size-12 cursor-pointer"
             src={logo}
             alt="logo"
           />
-          <label class="relative block pl-10 pt-2.5">
+          <label class="relative block ">
             <span class="sr-only">Search</span>
-            <span class="absolute inset-y-0 left-0 flex items-center pl-2"></span>
             <input
-              class="placeholder:italic placeholder:text-slate-400 block bg-grey w-40  border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm md:w-64"
+              class="placeholder:italic placeholder:text-slate-400 block bg-grey w-40  border-none rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm md:w-64"
               placeholder="Search"
               type="text"
               name="search"
             />
             <svg
-              class="absolute left-9 top-2.5 ml-3 mt-2 h-5 w-4 text-search"
+              class="absolute left-3 top-2  h-5 w-4 text-search"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -37,8 +36,8 @@ function Header() {
           </label>
         </div>
 
-        <div className="flex flex-row">
-          <div className=" bg-search w-8 h-8 rounded-full mx-4 my-4 shadow-md">
+        <div className="flex flex-row gap-4 items-center">
+          <div className=" bg-iconsBackground w-8 h-8 rounded-full  shadow-md">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -50,7 +49,7 @@ function Header() {
             </svg>
           </div>
 
-          <div className=" bg-search w-8 h-8 rounded-full mx-4 my-4 shadow-md-bg-shadowcolor">
+          <div className=" bg-iconsBackground w-8 h-8 rounded-full shadow-md-bg-shadowcolor">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -66,7 +65,7 @@ function Header() {
             </svg>
           </div>
 
-          <div className=" bg-search w-8 h-8 rounded-full mx-4 my-4 shadow-md-bg-shadowcolor">
+          <div className=" bg-iconsBackground w-8 h-8 rounded-full  shadow-md-bg-shadowcolor">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -80,11 +79,11 @@ function Header() {
               />
             </svg>
           </div>
-          <div>
+          <div className=" ml-2">
             <img
               alt=""
               src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-              className="mt-3 mr-8 h-10 w-10 rounded-full cursor-pointer"
+              className="h-10 w-10 rounded-full cursor-pointer"
             />
           </div>
         </div>

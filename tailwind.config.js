@@ -4,11 +4,11 @@ module.exports = {
 
   theme: {
     colors: {
-      grey: "#111827",
-      primary: "#1e1b4b",
+      grey: "#2a2b2f",
+      primary: "#20202a",
       search: "#94a3b8",
-      icon: "#2563eb",
-      bgcolor: "#172554",
+      icon: "#7493ff",
+      bgcolor: "#141416",
       textcolor: "#ffffff",
       order: "#3b82f6",
       delivered: "#22c55e",
@@ -16,6 +16,7 @@ module.exports = {
       revenue: "#db2777",
       star: "#eab308",
       shadowcolor: "#5b687b",
+      iconsBackground:"#454648"
     },
     extend: {
       width: {

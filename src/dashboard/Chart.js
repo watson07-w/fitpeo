@@ -25,7 +25,7 @@ const Chart = () => {
   }, []);
 
   return (
-    <div className="pl-4 w-full rounded-lg ">
+    <div className="w-full rounded-lg ">
       <div class="flex justify-between w-full bg-primary shadow h-64 pt-4">
         <p className="text-textcolor font-bold text-lg  px-5">Activity</p>
         <div>

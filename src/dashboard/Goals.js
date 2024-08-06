@@ -2,9 +2,9 @@ import React from "react";
 
 function Goals() {
   return (
-    <div className="bg-primary shadow h-64 rounded-lg">
-      <div className="flex justify-between">
-        <div className="flex justify-start">
+    <div className="bg-primary shadow rounded-lg">
+      <div className="flex justify-between items-center" >
+        <div className="flex justify-start items-center">
           <div className="bg-cancel w-14 h-14 rounded-full p-4 mx-4 my-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -19,11 +19,11 @@ function Goals() {
               />
             </svg>
           </div>
-          <div className="my-6 mr-64 md:mr-0">
+          <div className="my-6 md:mr-0">
             <p className="text-textcolor text-xl font-bold pt-1">Goals</p>
           </div>
         </div>
-        <div className=" bg-search w-8 h-8 rounded-full mx-4 my-4">
+        <div className=" bg-search w-8 h-8 rounded-full mx-4 my-4 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -38,8 +38,8 @@ function Goals() {
           </svg>
         </div>
       </div>
-      <div className="flex justify-between">
-        <div className="flex justify-start">
+      <div className="flex justify-between items-center">
+        <div className="flex justify-start items-center">
           <div className="bg-order w-14 h-14 rounded-full p-4 mx-4 my-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@ function Goals() {
               />
             </svg>
           </div>
-          <div className="my-6 mr-64 md:mr-0">
+          <div className="my-6 md:mr-0">
             <p className="text-textcolor text-xl font-bold pt-1">
               Popular Dishes
             </p>
@@ -76,8 +76,8 @@ function Goals() {
         </div>
       </div>
 
-      <div className="flex justify-between">
-        <div className="flex justify-start">
+      <div className="flex justify-between items-center">
+        <div className="flex justify-start items-center">
           <div className="bg-revenue w-14 h-14 rounded-full p-4 mx-4 my-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"

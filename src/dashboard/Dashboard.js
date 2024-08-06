@@ -8,13 +8,16 @@ import Feedback from "./Feedback";
 
 function Dashboard() {
   return (
-    <div className="grid grid-cols-2 gap-4 h-20 px-2 ">
+    <div className="py-7 px-4">
+    <h3 className="text-textcolor font-bold text-2xl mb-5">Dashboard</h3>
+    <div className="grid md:grid-cols-2 gap-5 ">
       <CardBox />
       <NetProfit />
       <Chart />
       <Goal />
       <RecentOrder />
       <Feedback />
+    </div>
     </div>
   );
 }
