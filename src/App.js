@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <Header />
-      <div className="flex bg-bgcolor">
+      <div className="flex bg-bgcolor ">
         <SideBar />
         <Dashboard />
       </div>

@@ -1,12 +1,19 @@
 import React from "react";
+import { CircularProgressbar } from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
 
 function NetProfit() {
+  const percentage = 75;
+  const color = "20202a";
   return (
-    <div className="flex bg-primary shadow  rounded-lg ">
+    <div className="flex justify-between items-center bg-primary shadow  rounded-lg px-4 py-3">
       <div className="flex flex-col">
-        <p className="text-textcolor text-xs font-bold px-4 py-2">NetProfit</p>
-        <p className="text-textcolor text-3xl font-bold  px-4">$6759.25</p>
-        <p class="text-delivered mt-4 text-left px-4">▲ 3%</p>
+        <p className="text-textcolor text-xs font-bold ">NetProfit</p>
+        <p className="text-heading text-3xl font-bold pt-3">$6759.25</p>
+        <p class="text-green mt-4 text-left">▲ 3%</p>
+      </div>
+      <div style={{ width: 100, height: 100 }}>
+        <CircularProgressbar value={percentage} text={`${percentage}%`} />;
       </div>
     </div>
   );

@@ -6,11 +6,7 @@ function Header() {
     <header>
       <nav className="container max-w-full bg-primary flex flex-row justify-between h-20 py-2 px-4">
         <div className="flex gap-8 items-center">
-          <img
-            className="size-12 cursor-pointer"
-            src={logo}
-            alt="logo"
-          />
+          <img className="size-12 cursor-pointer" src={logo} alt="logo" />
           <label class="relative block ">
             <span class="sr-only">Search</span>
             <input
@@ -37,7 +33,7 @@ function Header() {
         </div>
 
         <div className="flex flex-row gap-4 items-center">
-          <div className=" bg-iconsBackground w-8 h-8 rounded-full  shadow-md">
+          <div className=" bg-icons w-8 h-8 rounded-full  shadow-md">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -49,7 +45,7 @@ function Header() {
             </svg>
           </div>
 
-          <div className=" bg-iconsBackground w-8 h-8 rounded-full shadow-md-bg-shadowcolor">
+          <div className=" bg-icons w-8 h-8 rounded-full shadow-md-bg-shadowcolor">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -65,7 +61,7 @@ function Header() {
             </svg>
           </div>
 
-          <div className=" bg-iconsBackground w-8 h-8 rounded-full  shadow-md-bg-shadowcolor">
+          <div className=" bg-icons w-8 h-8 rounded-full  shadow-md-bg-shadowcolor">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
