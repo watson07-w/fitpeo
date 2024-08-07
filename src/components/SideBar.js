@@ -2,7 +2,7 @@ import React from "react";
 
 function SideBar() {
   return (
-    <div class="w-20 h-screen bg-primary border-r border-gray-300 py-5">
+    <div class="hidden sm:block w-20 h-full bg-primary border-r border-gray-300 py-28 fixed left-0 top-0 z-5">
       <ul>
         <li class="relative before:content-[''] before:absolute before:bottom-0 before:w-1 before:h-6 before:bg-icon before:rounded-sm">
           {" "}

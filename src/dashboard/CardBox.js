@@ -24,7 +24,7 @@ function CardBox() {
       title: "Total Orders",
       icon: <ShoppingCartIcon />,
       total: "05",
-      metrics: "▲3%",
+      metrics: "▲ 3%",
       iconColor: "cancel",
     },
     {
@@ -32,13 +32,13 @@ function CardBox() {
       title: "Total Orders",
       icon: <ShoppingCartIcon />,
       total: "12k",
-      metrics: "▼3%",
+      metrics: "▼ 3%",
       iconColor: "revenue",
     },
   ];
   return (
     <div>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 ">
+      <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 ">
         {cardList.map((card) => {
           return (
             <div class="bg-primary p-3 rounded-lg shadow w-full">
@@ -50,7 +50,7 @@ function CardBox() {
               <h2 class="text-textcolor font-normal text-xs">{card.title}</h2>
               <div className="flex justify-between">
                 <p class="text-heading text-2xl font-bold mt-2">{card.total}</p>
-                <p class={`text-textcolor mt-4 text-right md:text-sm`}>
+                <p class={`text-${card.iconColor} mt-4 text-right md:text-sm`}>
                   {card.metrics}
                 </p>
               </div>

@@ -8,8 +8,7 @@ function RecentOrder() {
       orderno: "1546789",
       amount: "$124.00",
       status: "Delivered",
-      correct: "#0a5845",
-      button: "correct",
+      button: "#6a3034",
     },
     {
       image:
@@ -18,7 +17,7 @@ function RecentOrder() {
       orderno: "1546789",
       amount: "$365.02",
       status: "Cancelled",
-      button: "wrong",
+      button: "#ffffff",
     },
     {
       image:
@@ -27,7 +26,7 @@ function RecentOrder() {
       orderno: "1546789",
       amount: "$45.88",
       status: "Pending",
-      button: "correct",
+      button: "#0a5845",
     },
 
     {
@@ -37,7 +36,7 @@ function RecentOrder() {
       orderno: "1546789",
       amount: "$65.00",
       status: "Delivered",
-      button: "correct",
+      button: "#6a3034",
     },
     {
       image:
@@ -46,7 +45,7 @@ function RecentOrder() {
       orderno: "1546789",
       amount: "$124.00",
       status: "Delivered",
-      button: "correct",
+      button: "#0a5845",
     },
   ];
   return (
@@ -78,7 +77,8 @@ function RecentOrder() {
                   <td className="text-center">{order.amount}</td>
                   <td className="text-center">
                     <button
-                      className={`bg-${order.button} text-white rounded-full py-1 px-3 mx-4`}
+                      className={` text-white rounded-full py-1 px-3`}
+                      style={{ backgroundColor: order.button }}
                     >
                       {order.status}
                     </button>

@@ -3,14 +3,14 @@ import logo from "../assests/images/logo.svg";
 
 function Header() {
   return (
-    <header>
+    <header className="sticky top-0 z-10"> 
       <nav className="container max-w-full bg-primary flex flex-row justify-between h-20 py-2 px-4">
         <div className="flex gap-8 items-center">
           <img className="size-12 cursor-pointer" src={logo} alt="logo" />
-          <label class="relative block ">
+          <label class="relative hidden sm:block  ">
             <span class="sr-only">Search</span>
             <input
-              class="placeholder:italic placeholder:text-slate-400 block bg-grey w-40  border-none rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm md:w-64"
+              class="block placeholder:italic placeholder:text-slate-400  bg-grey w-40  border-none rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm md:w-64"
               placeholder="Search"
               type="text"
               name="search"
