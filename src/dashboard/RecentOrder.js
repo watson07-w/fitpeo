@@ -17,7 +17,7 @@ function RecentOrder() {
       orderno: "1546789",
       amount: "$365.02",
       status: "Cancelled",
-      button: "#ffffff",
+      button: "#6a3034",
     },
     {
       image:

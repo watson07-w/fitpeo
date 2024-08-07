@@ -37,7 +37,7 @@ function Feedback() {
     },
   ];
   return (
-    <div className=" bg-primary shadow rounded-lg sm:overflow-y-auto sm:h-80">
+    <div className=" bg-primary shadow rounded-lg sm:overflow-y-auto sm:h-85">
       <p className="text-heading font-bold text-xl pt-5 pl-5 ">
         Customer's Feedback
       </p>
@@ -55,9 +55,11 @@ function Feedback() {
                   {feedback.name}
                 </p>
                 <div className="flex">
-                  {
-                    Array(feedback.reviewCount).fill('').map(() => <StarIcon width={20} height={20} className="text-star" />)
-                  }
+                  {Array(feedback.reviewCount)
+                    .fill("")
+                    .map(() => (
+                      <StarIcon width={20} height={20} className="text-star" />
+                    ))}
                 </div>
                 <p className="text-textcolor text-sm">{feedback.description}</p>
               </div>

@@ -50,7 +50,10 @@ function CardBox() {
               <h2 class="text-textcolor font-normal text-xs">{card.title}</h2>
               <div className="flex justify-between">
                 <p class="text-heading text-2xl font-bold mt-2">{card.total}</p>
-                <p class={`text-${card.iconColor} mt-4 text-right md:text-sm`}>
+                <p
+                  class={` mt-4 text-right md:text-sm`}
+                  style={{ color: "#6f96fd" }}
+                >
                   {card.metrics}
                 </p>
               </div>
